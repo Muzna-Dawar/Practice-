@@ -1,11 +1,122 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    column-gap: 30pc;
+    padding-top: 1.5pc;
+    column-gap: 31pc;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.sections ul li {
+    list-style-type: none;
+}
+.sections ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3pc;
+}
+.account-icon {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5pc;
+}
+.account  {
+    padding-top: 1px;
+}
+.homepage {
+    background-image: url(mount11.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50pc;
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20pc;
+    margin-top: 8pc;
+    margin-left: 2pc;
+}
+.first-line {
+    color: #ffd676;
+    display: flex;
+    flex-direction: row;
+}
+.line {
+    font-weight: bold;
+}
+.line-text {
+    margin-top: 9px;
+    margin-left: 1pc;
+    letter-spacing: 3px;
+}
+.center h1 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.right {
+    margin-left: 2pc;
+}
+.right img {
+    width: 13pc;
+    height: 20pc;
+}
+.left h6 {
+    font-size: 15px;
+    writing-mode: vertical-lr;
+    letter-spacing: 2px;
+}
+.left img {
+    margin-top: 1.5pc;
+    margin-left: 2pc;
+}
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10pc;
+    column-gap: 10pc;
+    margin-left: 5pc;
+}
+.sec2-img img {
+    width: 490px;
+    height: 600px;
+}
+.sec2 h1{
+    font-size: 50px;
+}
+.sec2 .paragraph {
+    margin-bottom: 2.5pc;
+}
+.sec3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15pc;
+    column-gap: 10pc;
+    margin-right: 5pc;
 }
