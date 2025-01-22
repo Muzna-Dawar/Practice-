@@ -97,7 +97,7 @@ nav h1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 10pc;
+    margin-top: 15pc;
     column-gap: 10pc;
     margin-left: 5pc;
 }
@@ -119,4 +119,19 @@ nav h1 {
     margin-top: 15pc;
     column-gap: 10pc;
     margin-right: 5pc;
+}
+.sec3 h1{
+    font-size: 50px;
+}
+.sec3 .paragraph {
+    margin-bottom: 2.5pc;
+}
+.read-img {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1pc;
+    color: #ffd676;
+}
+.read-img img {
+    margin-top: 3px;
 }
